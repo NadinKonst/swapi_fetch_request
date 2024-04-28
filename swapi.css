@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 234, 217);
+}
+
+h1 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+
+#error {
+  color: darkred;
+}
+
+#result {
+  color: darkgreen;
+}
+
+button {
+  background-color: lightblue;
+  border-radius: 4px;
+}
